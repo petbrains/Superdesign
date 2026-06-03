@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.3.3 — 2026-06-03
+
+### Changed
+- **designlib MCP endpoint migrated** to `https://designlib.petbrains.dev/mcp` (was `https://mcp.petbrains.dev/mcp`). Updated in `.mcp.json`, `README.md`, `skills/design/SKILL.md`, `skills/design/references/designlib-mcp.md`.
+- `.claude-plugin/plugin.json` — version 2.3.3.
+
 ## v2.3.2 — 2026-06-03
 
 ### Changed

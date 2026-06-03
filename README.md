@@ -196,7 +196,7 @@ Routing detail: [`skills/design/references/figma/README.md`](skills/design/refer
 Pre-configured in `.mcp.json`. To install standalone:
 
 ```
-claude mcp add --transport http designlib https://mcp.petbrains.dev/mcp
+claude mcp add --transport http designlib https://designlib.petbrains.dev/mcp
 ```
 
 Without it, the plugin falls back to local CSV (palettes, styles, fonts) and to landing_patterns (no inspiration_pages). Recommended: keep it on.
