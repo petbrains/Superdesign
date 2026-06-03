@@ -2,7 +2,7 @@
   "mcpServers": {
     "designlib": {
       "type": "http",
-      "url": "https://designlib-production.up.railway.app/mcp"
+      "url": "https://mcp.petbrains.dev/mcp"
     },
     "figma": {
       "type": "http",

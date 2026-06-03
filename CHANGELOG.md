@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.3.2 — 2026-06-03
+
+### Changed
+- **designlib MCP endpoint migrated** to the dedicated domain `https://mcp.petbrains.dev/mcp` (was `https://designlib-production.up.railway.app/mcp`). Verified live: `designlib-mcp` server v3.4.0, all 27 tools present (styles, palettes, font_pairs, domains, chart_types, landing_patterns, icons, inspiration_pages, animations), real `tools/call` payloads returning. Updated in `.mcp.json`, `README.md`, `skills/design/SKILL.md`, `skills/design/references/designlib-mcp.md`.
+- `.claude-plugin/plugin.json` — version 2.3.2.
+
 ## v2.3.1 — 2026-05-03
 
 ### Changed
