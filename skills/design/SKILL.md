@@ -82,7 +82,7 @@ All Layer 1 access goes through `get_design_reference(type, filters)`. See [`ref
 5. **Free generation** — last resort. Mark `source='free'` on the result.
 
 If `designlib` MCP is NOT connected and a user starts a design system from scratch, tell them once:
-> "designlib MCP is not connected. It gives authoritative palettes/fonts/inspiration_pages for web + iOS. Install: `claude mcp add --transport http designlib https://designlib-production.up.railway.app/mcp`. Proceeding with local CSV fallback."
+> "designlib MCP is not connected. It gives authoritative palettes/fonts/inspiration_pages for web + iOS. Install: `claude mcp add --transport http designlib https://mcp.petbrains.dev/mcp`. Proceeding with local CSV fallback."
 
 ### Motion sub-source (KB-EXTENSION)
 
