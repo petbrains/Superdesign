@@ -67,7 +67,7 @@ Python scripts use stdlib only — no `pip install`. Node anti-pattern detector 
 ## Plugin installation (for end users)
 
 ```
-/plugin marketplace add petbrains/design-builder
+/plugin marketplace add app-builders-club/design-builder
 /plugin install design-builder@design-builder-marketplace
 ```
 

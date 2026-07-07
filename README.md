@@ -46,7 +46,7 @@ The reason isn't model capability. It is missing inputs:
 Install:
 
 ```
-/plugin marketplace add petbrains/design-builder
+/plugin marketplace add app-builders-club/design-builder
 /plugin install design-builder@design-builder-marketplace
 ```
 
@@ -196,22 +196,22 @@ Routing detail: [`skills/design/references/figma/README.md`](skills/design/refer
 Pre-configured in `.mcp.json`. To install standalone:
 
 ```
-claude mcp add --transport http designlib https://designlib.petbrains.dev/mcp
+claude mcp add --transport http designlib https://designlib.app-builders.club/mcp
 ```
 
 Without it, the plugin falls back to local CSV (palettes, styles, fonts) and to landing_patterns (no inspiration_pages). Recommended: keep it on.
 
 ---
 
-## Part of Pet Brains
+## Part of App Builders Club
 
 `design-builder` is one of three open-source tools we ship for builders who code with AI:
 
-- **[mvp-builder](https://github.com/petbrains/mvp-builder)** — Document-Driven Development for Claude Code. Specs before code, TDD enforced, self-review catches stubs.
+- **[mvp-builder](https://github.com/app-builders-club/mvp-builder)** — Document-Driven Development for Claude Code. Specs before code, TDD enforced, self-review catches stubs.
 - **design-builder** — this repo. Production-grade UIs without the AI-slop look.
-- **[designlib-mcp](https://github.com/petbrains/designLib-mcp)** — the design-knowledge MCP that powers design-builder. Works standalone in any MCP client.
+- **[designlib-mcp](https://github.com/app-builders-club/designLib-mcp)** — the design-knowledge MCP that powers design-builder. Works standalone in any MCP client.
 
-Methodology and build films at [petbrains.dev](https://petbrains.dev) · YouTube [@petbrains](https://youtube.com/@petbrains)
+Methodology and build films at [app-builders.club](https://app-builders.club)
 
 ---
 

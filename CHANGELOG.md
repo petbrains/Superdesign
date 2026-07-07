@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.3.4 — 2026-07-07
+
+### Changed
+- **designlib MCP endpoint migrated** to `https://designlib.app-builders.club/mcp` (was `https://designlib.petbrains.dev/mcp`). Updated in `.mcp.json`, `README.md`, `skills/design/SKILL.md`, `skills/design/references/designlib-mcp.md`.
+- **Rebranded Pet Brains → App Builders Club.** Author/owner name (`plugin.json`, `marketplace.json`), `LICENSE` copyright, README "Part of" section, and website (`petbrains.dev` → `app-builders.club`). GitHub org migrated `github.com/petbrains/*` → `github.com/app-builders-club/*` (repo/homepage links + `marketplace add` install command in `README.md` and `CLAUDE.md`). YouTube link removed from the README footer. Historical CHANGELOG entries left intact.
+- `.claude-plugin/plugin.json` — version 2.3.4.
+
 ## v2.3.3 — 2026-06-03
 
 ### Changed
