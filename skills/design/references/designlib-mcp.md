@@ -5,7 +5,7 @@ description: designlib MCP — authoritative catalog of styles, palettes, font p
 
 # designlib MCP
 
-**Server (hosted):** `https://designlib.petbrains.dev/mcp` (HTTP, read-only)
+**Server (hosted):** `https://designlib.app-builders.club/mcp` (HTTP, read-only)
 **Catalog:** 67 styles · 100 palettes · 34 font pairs · 134 domains · 405 inspiration_pages · 120 animations · web + iOS
 
 designlib is a curated, hand-maintained source of truth for design tokens. It replaces LLM guessing (invented hex codes, random font pairings) with retrieval. When available, it is the **primary** source for styles/palettes/fonts/domain recommendations in this skill.
@@ -23,7 +23,7 @@ When any `/design` command needs tokens, resolve in this order:
 
 Before using designlib tools, verify availability:
 - Tool list contains `mcp__<prefix>__list_styles` or similar — proceed
-- Not in tool list — fall back to `scripts/search.py` with equivalent CSV queries and tell the user: *"designlib MCP not connected; using local CSV fallback. Install: `claude mcp add --transport http designlib https://designlib.petbrains.dev/mcp`"*
+- Not in tool list — fall back to `scripts/search.py` with equivalent CSV queries and tell the user: *"designlib MCP not connected; using local CSV fallback. Install: `claude mcp add --transport http designlib https://designlib.app-builders.club/mcp`"*
 
 ## Tools (15, all read-only)
 
